@@ -26,7 +26,7 @@ unsigned char addBinary(unsigned char A, unsigned char B) {
 		A = A ^ B;
 		B = carry << 1;
 	}
-	
+	/* Return the result that was stored in A.*/
 	return A;
 }
 
