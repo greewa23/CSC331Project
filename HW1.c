@@ -61,4 +61,6 @@ int main() {
 		printf("%u", (result >> i) & 1);
 	}
 	return 0;
+
+	/*Test comment*/
 }
